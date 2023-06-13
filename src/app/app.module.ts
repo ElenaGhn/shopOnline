@@ -10,12 +10,18 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatMenuModule} from "@angular/material/menu";
 import { HelloWorldComponent } from './components/hello-world/hello-world.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
+import { MatListModule} from "@angular/material/list";
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HelloWorldComponent
+    HelloWorldComponent,
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +30,9 @@ import { HelloWorldComponent } from './components/hello-world/hello-world.compon
     MaterialModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

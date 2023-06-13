@@ -4,6 +4,9 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule} from '@angular/material/icon';
 import { MatButtonModule} from '@angular/material/button';
 import { MatMenuModule} from "@angular/material/menu";
+import { MatSidenavModule} from "@angular/material/sidenav";
+import { MatListModule} from "@angular/material/list";
+import {MatSidenav} from "@angular/material/sidenav";
 
 
 
@@ -14,8 +17,10 @@ import { MatMenuModule} from "@angular/material/menu";
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSidenavModule,
+    MatListModule
   ],
-  exports: [MatToolbarModule, MatIconModule, MatButtonModule, MatMenuModule]
+  exports: [MatToolbarModule, MatIconModule, MatButtonModule, MatMenuModule, MatSidenavModule, MatListModule]
 })
 export class MaterialModule { }
