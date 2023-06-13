@@ -13,7 +13,7 @@ export class NavigationComponent implements OnInit{
 
   ngOnInit() {
   }
-
+// recherche machen
   toggleSidenav() {
     this.sidenav.toggle();
   }
