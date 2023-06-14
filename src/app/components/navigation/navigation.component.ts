@@ -11,8 +11,7 @@ export class NavigationComponent implements OnInit{
 
   constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 // recherche machen
   toggleSidenav() {
     this.sidenav.toggle();

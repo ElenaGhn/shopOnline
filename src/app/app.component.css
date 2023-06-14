@@ -5,12 +5,13 @@
 
 mat-sidenav {
   width: 200px;
-  height: 520px;
-  background-color: #4682B4;
-  color: #fff;
+  height: 80%;
+  background-color: #e8e8e8;
+  color: #e8e8e8;
   padding: 14px;
 }
 
 mat-sidenav a {
-  color: #fff;
+  color: #e8e8e8;
 }
+

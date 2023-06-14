@@ -13,8 +13,10 @@ import { HelloWorldComponent } from './components/hello-world/hello-world.compon
 import { NavigationComponent } from './components/navigation/navigation.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
 import { MatListModule} from "@angular/material/list";
-
-
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import {AppRouterModule} from "./general/app-router/app-router.module";
+import {ExtendedModule} from "@angular/flex-layout";
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { MatListModule} from "@angular/material/list";
     HeaderComponent,
     HelloWorldComponent,
     NavigationComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,10 @@ import { MatListModule} from "@angular/material/list";
     MatButtonModule,
     MatMenuModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    AppRouterModule,
+    ExtendedModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
