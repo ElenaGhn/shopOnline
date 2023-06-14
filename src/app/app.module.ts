@@ -17,6 +17,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import {AppRouterModule} from "./general/app-router/app-router.module";
 import {ExtendedModule} from "@angular/flex-layout";
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import { SliderImagesComponent } from './components/slider-images/slider-images.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
     HelloWorldComponent,
     NavigationComponent,
     LandingPageComponent,
+    SliderImagesComponent,
   ],
   imports: [
     BrowserModule,
