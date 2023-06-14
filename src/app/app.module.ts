@@ -18,6 +18,7 @@ import {AppRouterModule} from "./general/app-router/app-router.module";
 import {ExtendedModule} from "@angular/flex-layout";
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { SliderImagesComponent } from './components/slider-images/slider-images.component';
+import { AdvantagesComponent } from './components/advantages/advantages.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SliderImagesComponent } from './components/slider-images/slider-images.
     NavigationComponent,
     LandingPageComponent,
     SliderImagesComponent,
+    AdvantagesComponent,
   ],
   imports: [
     BrowserModule,
