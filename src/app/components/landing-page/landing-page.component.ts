@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SliderImage} from "../slider-images/slider-images.component";
 
 
 @Component({
@@ -8,6 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+
+  images: SliderImage[] = [
+    {
+      source: './assets/images/1.jpg',
+      alt: '00'
+    }
+    ]
   constructor() {}
 
   ngOnInit(): void {}

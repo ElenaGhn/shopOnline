@@ -20,6 +20,7 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { SliderImagesComponent } from './components/slider-images/slider-images.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,20 +31,20 @@ import { AdvantagesComponent } from './components/advantages/advantages.componen
     SliderImagesComponent,
     AdvantagesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    MatIconModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatSidenavModule,
-    MatListModule,
-    AppRouterModule,
-    ExtendedModule,
-    FontAwesomeModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MaterialModule,
+        MatIconModule,
+        MatButtonModule,
+        MatMenuModule,
+        MatSidenavModule,
+        MatListModule,
+        AppRouterModule,
+        ExtendedModule,
+        FontAwesomeModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
