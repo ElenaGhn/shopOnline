@@ -12,7 +12,19 @@ export class LandingPageComponent implements OnInit {
 
   images: SliderImage[] = [
     {
-      source: './assets/images/1.jpg',
+      source: './assets/images/1.jpg ',
+      alt: '00'
+    },
+    {
+      source: './assets/images/2.jpg',
+      alt: '00'
+    },
+    {
+      source: './assets/images/3.jpg',
+      alt: '00'
+    },
+    {
+      source: './assets/images/4.jpg',
       alt: '00'
     }
     ]
@@ -21,3 +33,4 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {}
 
 }
+

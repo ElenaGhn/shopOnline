@@ -1,21 +1,32 @@
 mat-tab-group {
-  width: 900px;
+  width: 70%;
   margin: auto;
-  overflow: none;
 }
+
+img {
+  width: 300px;
+ }
+
 
 mat-card {
   cursor: pointer;
 }
 
+
+mat-card-header img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 mat-card-container {
-  margin-top: 10px!important;
+  margin: 10px!important;
 }
 
 mat-card-title {
-  font-size: large;
+  font-size: x-large;
+  margin: 10px;
 }
-
 
 mat-card-title a{
   text-decoration: none;
@@ -27,6 +38,23 @@ mat-card-title a:hover {
 }
 
 mat-card-subtitle {
-  color: #e30303;
+  color: #a9062c;
   font-weight: bold;
+  margin-left: 10px;
+  font-size: medium;
 }
+
+
+
+.show-all {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  display: flex;
+}
+
+.show-all button {
+  margin: auto;
+  padding: 25px;
+}
+
+

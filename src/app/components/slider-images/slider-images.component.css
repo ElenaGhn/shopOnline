@@ -4,9 +4,9 @@
   position: relative;
   margin: auto;
   text-align: center;
-  width: 900px;
+  width: 85vh;
   border-radius: 15px;
-  box-shadow: 0 2px 5px black;
+  box-shadow: 0 3px 8px black;
 }
 
 .slider-top {

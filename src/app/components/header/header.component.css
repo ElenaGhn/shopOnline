@@ -4,14 +4,12 @@
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  position: relative;
 }
 
-.container h2 {
-  position: absolute;
-  top: 20%;
-}
+mat-icon {
+  margin-top: 10px;
 
+}
 .homeIcon {
   cursor: pointer;
 }
@@ -21,13 +19,13 @@
 }
 
 .toolbarWrite {
-  background-color: #eee9de;
+  background: rgba(76, 175, 80, 0.1);
 }
 
 .headerBlock {
   display: flex;
   flex-direction: row;
-  font-size: small;
+  font-size: medium;
 }
 
 .blockHalf {
@@ -41,12 +39,8 @@
   margin-top: 15%
 }
 .blockHalf h3, .blockHalf p {
-  font-size: small;
+  font-size: medium;
   margin: 0;
-}
-
-.headerBlockRight {
-  margin-top: 15px;
 }
 
 .headerBlock .secondHeader {
