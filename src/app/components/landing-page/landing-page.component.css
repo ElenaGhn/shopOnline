@@ -58,3 +58,47 @@ mat-card-subtitle {
 }
 
 
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container mat-card {
+  margin: 10px;
+}
+
+.aboveFooterContainer {
+  height: 80px;
+}
+
+
+.newsletterMessage {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.fontIcon{
+  margin-top: 30px;
+}
+
+mat-form-field {
+  width: 300px;
+  color: #000;
+}
+
+mat-form-field imput {
+  background-color: white;
+  height: 30px;
+}
+
+mat-form-field button {
+  height: 30px;
+}
+
+.form-field-container {
+  display: flex;
+  height: 50px;
+  margin-right: 20px;
+}
+.email-form {
+}

@@ -4,12 +4,13 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule} from '@angular/material/icon';
 import { MatButtonModule} from '@angular/material/button';
 import { MatMenuModule} from "@angular/material/menu";
-import {MatSidenavModule} from "@angular/material/sidenav";
-import {MatListModule} from "@angular/material/list";
-import {MatTabsModule} from '@angular/material/tabs';
-import {MatCardModule} from "@angular/material/card";
+import { MatSidenavModule} from "@angular/material/sidenav";
+import { MatListModule} from "@angular/material/list";
+import { MatTabsModule} from '@angular/material/tabs';
+import { MatCardModule} from "@angular/material/card";
 import { FlexLayoutModule} from '@angular/flex-layout';
-
+import { MatFormFieldModule} from "@angular/material/form-field";
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -24,11 +25,26 @@ import { FlexLayoutModule} from '@angular/flex-layout';
     MatListModule,
     MatTabsModule,
     MatCardModule,
-    FlexLayoutModule
-  ],
-  exports: [MatToolbarModule, MatIconModule,
-    MatButtonModule, MatMenuModule, MatSidenavModule,
-    MatListModule, MatTabsModule, MatCardModule,
-    FlexLayoutModule]
+    FlexLayoutModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule,
+
+],
+  exports: [
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatListModule,
+    MatTabsModule,
+    MatCardModule,
+    FlexLayoutModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule,
+
+  ]
 })
 export class MaterialModule { }

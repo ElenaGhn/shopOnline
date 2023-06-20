@@ -1,5 +1,12 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 .container {
-  width : 90%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -10,6 +17,7 @@ mat-icon {
   margin-top: 10px;
 
 }
+
 .homeIcon {
   cursor: pointer;
 }
@@ -38,6 +46,7 @@ mat-icon {
   margin-right: 10px;
   margin-top: 15%
 }
+
 .blockHalf h3, .blockHalf p {
   font-size: medium;
   margin: 0;

@@ -1,6 +1,8 @@
 
 .contentSidenav {
-  height: 95vh;
+  overflow: auto;
+  top: 190px;
+  position: absolute;
 }
 
 mat-sidenav {

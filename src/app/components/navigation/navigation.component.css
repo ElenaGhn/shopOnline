@@ -20,6 +20,8 @@ ul:hover li  {
 ul li:hover  {
   filter: blur(0px);
 }
+
+
 .container {
   width: 90%;
   margin-left: auto;
@@ -34,4 +36,6 @@ mat-toolbar {
   background: rgba(76, 175, 80, 0.2);
   backdrop-filter: blur(10px);
 }
+
+
 
