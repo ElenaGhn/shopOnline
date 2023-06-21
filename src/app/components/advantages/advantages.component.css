@@ -20,7 +20,7 @@ mat-toolbar-row {
 
 .blockQuarter {
   margin-right: 20px;
-  width: 225px;
+  width: 205px;
   display: flex;
   flex-direction: row;
 }
@@ -32,8 +32,8 @@ mat-toolbar-row {
 }
 
 .blockQuarterDetails h3,
-.blockQuarterDetails p{
-    font-size: medium;
-    margin: 0;
-    color: #361212;
+.blockQuarterDetails p {
+  font-size: small;
+  margin: 0;
+  color: #361212;
 }

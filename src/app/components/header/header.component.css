@@ -7,52 +7,47 @@
 
 .container {
   width: 90%;
-  margin-left: auto;
+  margin-left: 30px;
   margin-right: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
-mat-icon {
+span, mat-icon {
   margin-top: 10px;
-
+  font-size: x-large;
+  cursor: pointer;
 }
 
 .homeIcon {
   cursor: pointer;
 }
 
-.flexExpand {
-  flex: 1 1 auto;
+.headerAuth {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .toolbarWrite {
-  background: rgba(76, 175, 80, 0.1);
+  background: rgba(203, 192, 237, 0.4);
 }
 
 .headerBlock {
   display: flex;
   flex-direction: row;
-  font-size: medium;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 .blockHalf {
   margin-right: 20px;
   display: flex;
-  flex-direction: row;
-}
-
-.blockHalf mat-icon {
-  margin-right: 10px;
-  margin-top: 15%
+  align-items: flex-end;
 }
 
 .blockHalf h3, .blockHalf p {
-  font-size: medium;
+  font-size: small;
   margin: 0;
-}
-
-.headerBlock .secondHeader {
-  border-left: 1px solid gray;
-  padding-left: 5px;
 }
