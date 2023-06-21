@@ -1,5 +1,5 @@
 mat-tab-group {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 
@@ -57,9 +57,4 @@ mat-card-subtitle {
   background-color: rgba(139, 121, 193, 0.8);
 }
 
-
-.container {
-  width: 900px;
-  margin: auto;
-}
 

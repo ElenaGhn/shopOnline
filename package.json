@@ -29,6 +29,7 @@
     "@material/tabs": "^2.3.0",
     "angular-font-awesome": "^3.1.2",
     "font-awesome": "^4.7.0",
+    "material-icons": "^1.13.8",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

@@ -1,0 +1,42 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+img {
+  width: 300px;
+}
+
+.container mat-card {
+  margin: 10px;
+}
+
+.aboveFooterContainer {
+  height: 70px;
+  background-color: rgba(159, 140, 220, 0.7);
+}
+
+.newsletterMessage {
+  margin-top: 20px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.message-footer{
+  margin-top: 4px;
+  margin-right: 7px;
+}
+
+mat-form-field {
+  width: 400px;
+}
+
+.footer-submit-button{
+  margin-left: 6px;
+}
+
+.form-field-container {
+  display: flex;
+  margin-top: 17px;
+  height: 60px;
+}

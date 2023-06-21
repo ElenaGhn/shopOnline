@@ -1,6 +1,5 @@
 
 .contentSidenav {
-  overflow: auto;
   top: 170px;
   position: absolute;
 }
@@ -11,9 +10,5 @@ mat-sidenav {
   background-color: #e8e8e8;
   color: black;
   padding: 14px;
-}
-
-mat-sidenav a {
-  color: #e8e8e8;
 }
 

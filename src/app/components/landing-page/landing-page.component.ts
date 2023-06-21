@@ -11,6 +11,8 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 export class LandingPageComponent implements OnInit {
 
 
+
+
   images: SliderImage[] = [
     {
       source: './assets/images/1.jpg ',
