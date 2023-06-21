@@ -52,3 +52,8 @@ span, mat-icon {
   font-size: small;
   margin: 0;
 }
+
+mat-sidenav {
+  width: 15%;
+  background-color: rgba(204, 204, 245, 0.7);
+}

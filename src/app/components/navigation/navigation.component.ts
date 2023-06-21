@@ -7,6 +7,7 @@ import {MatSidenav} from "@angular/material/sidenav";
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit{
+
   @Input() sidenav: MatSidenav;
 
   constructor() {}
@@ -16,5 +17,4 @@ export class NavigationComponent implements OnInit{
   toggleSidenav() {
     this.sidenav.toggle();
   }
-
 }

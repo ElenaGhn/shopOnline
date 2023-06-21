@@ -1,5 +1,6 @@
 
 .contentSidenav {
+  overflow: hidden;
   top: 170px;
   position: absolute;
 }
