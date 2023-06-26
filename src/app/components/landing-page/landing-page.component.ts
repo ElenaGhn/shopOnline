@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {SliderImage} from "../slider-images/slider-images.component";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {SliderImage} from "../slider-images/slider-images.component";
 
 
 @Component({
@@ -10,8 +10,7 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 })
 export class LandingPageComponent implements OnInit {
 
-
-
+  newsletter: FormGroup;
 
   images: SliderImage[] = [
     {
@@ -29,6 +28,22 @@ export class LandingPageComponent implements OnInit {
     {
       source: './assets/images/4.jpg',
       alt: '00'
+    },
+    {
+      source: './assets/images/5.jpg',
+      alt: '00'
+    },
+    {
+      source: './assets/images/6.jpg',
+      alt: '00'
+    },
+    {
+      source: './assets/images/7.jpg',
+      alt: '00'
+    },
+    {
+      source: './assets/images/8.jpg',
+      alt: '00'
     }
   ]
 
@@ -36,5 +51,8 @@ export class LandingPageComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.newsletter = new FormGroup({
+      'newsletter': new FormControl('', [Validators.required, Validators.email])
+    })
   }
 }

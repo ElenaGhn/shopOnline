@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { MaterialModule} from "./general/material/material.module";
 import { MatButtonModule} from "@angular/material/button";
 import { MatMenuModule} from "@angular/material/menu";
-import { HelloWorldComponent } from './components/hello-world/hello-world.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { MatSidenavModule} from "@angular/material/sidenav";
 import { MatListModule} from "@angular/material/list";
@@ -20,7 +19,7 @@ import { AdvantagesComponent } from './components/advantages/advantages.componen
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
 import {MatIconModule} from "@angular/material/icon";
 
 
@@ -29,7 +28,6 @@ import {MatIconModule} from "@angular/material/icon";
   declarations: [
     AppComponent,
     HeaderComponent,
-    HelloWorldComponent,
     NavigationComponent,
     LandingPageComponent,
     SliderImagesComponent,

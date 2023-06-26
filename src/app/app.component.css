@@ -1,8 +1,8 @@
 
 .contentSidenav {
-  overflow: hidden;
+  overflow: auto;
   top: 170px;
-  position: absolute;
+  position: relative;
 }
 
 mat-sidenav {

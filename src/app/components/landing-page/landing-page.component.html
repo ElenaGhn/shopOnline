@@ -1,3 +1,5 @@
+<div id="scrollable">
+
       <app-slider-images></app-slider-images>
 
       <app-advantages></app-advantages>
@@ -6,7 +8,7 @@
       <mat-tab-group color="primary">
       <mat-tab label="Newest">
         <div fxLayout="row wrap" fxLayout="10px grid" class="mat-card-container">
-          <div fxFlex="25%" *ngFor="let num of [0, 1, 2, 3, 2, 0, 3, 1,]">
+          <div fxFlex="25%" *ngFor="let num of [0, 1, 2, 3, 4, 5, 6, 7]">
             <mat-card>
               <mat-card-header>
                 <img class="my-image" mat-card-image [src]="images[num].source" alt="">
@@ -67,3 +69,4 @@
       <button mat-raised-button >All Products</button>
       </div>
       <app-footer></app-footer>
+</div>

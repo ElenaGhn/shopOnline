@@ -8,12 +8,14 @@ img {
 }
 
 .container mat-card {
-  margin: 10px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .aboveFooterContainer {
   height: 70px;
   background-color: rgba(159, 140, 220, 0.7);
+  margin-bottom: 30px;
 }
 
 .newsletterMessage {
