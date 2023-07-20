@@ -23,7 +23,7 @@ ul li:hover {
 }
 
 
-.container {
+.containerNav {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -36,6 +36,6 @@ ul li:hover {
 }
 
 mat-toolbar {
-  background: rgba(203, 192, 237, 0.4);
+  background: linear-gradient(#bed3ff, #ffe0e4);
 }
 

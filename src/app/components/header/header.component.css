@@ -1,9 +1,5 @@
 .header-container {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-
+  position: relative;
 }
 
 .container {
@@ -31,7 +27,7 @@ span, mat-icon {
 }
 
 .toolbarWrite {
-  background: rgba(203, 192, 237, 0.4);
+  background: linear-gradient(#ffe0e4, #b6d0fd);
 }
 
 .headerBlock {

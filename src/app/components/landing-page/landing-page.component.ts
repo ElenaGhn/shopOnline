@@ -47,8 +47,7 @@ export class LandingPageComponent implements OnInit {
     }
   ]
 
-  constructor() {
-  }
+  constructor() {}
 
   ngOnInit() {
     this.newsletter = new FormGroup({

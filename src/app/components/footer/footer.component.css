@@ -14,7 +14,7 @@ img {
 
 .aboveFooterContainer {
   height: 70px;
-  background-color: rgba(159, 140, 220, 0.7);
+  background: linear-gradient(#ffe0e4, #98bcff, #ffe0e4);
   margin-bottom: 30px;
 }
 
@@ -31,6 +31,7 @@ img {
 
 mat-form-field {
   width: 400px;
+  font-size: large;
 }
 
 .footer-submit-button{

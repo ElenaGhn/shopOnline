@@ -32,7 +32,8 @@ import {MatIconModule} from "@angular/material/icon";
     LandingPageComponent,
     SliderImagesComponent,
     AdvantagesComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
