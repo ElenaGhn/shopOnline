@@ -21,6 +21,9 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import { FooterComponent } from './components/footer/footer.component';
 import {MatIconModule} from "@angular/material/icon";
+import { AboutComponent } from './components/about/about.component';
+import { ContentComponent } from './components/content/content.component';
+import { HeaderSpacerComponent } from './components/header-spacer/header-spacer.component';
 
 
 
@@ -33,6 +36,9 @@ import {MatIconModule} from "@angular/material/icon";
     SliderImagesComponent,
     AdvantagesComponent,
     FooterComponent,
+    AboutComponent,
+    ContentComponent,
+    HeaderSpacerComponent,
 
   ],
   imports: [

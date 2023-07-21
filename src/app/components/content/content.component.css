@@ -22,7 +22,6 @@ ul li:hover {
   filter: blur(0px);
 }
 
-
 .containerNav {
   width: 100%;
   margin-left: auto;
@@ -38,7 +37,3 @@ ul li:hover {
 mat-toolbar {
   background: linear-gradient(#bed3ff, #ffe0e4);
 }
-mat-sidenav-container {
-  height: 100vh;
-}
-
