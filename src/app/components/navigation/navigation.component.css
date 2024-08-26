@@ -36,7 +36,7 @@ ul li:hover {
 }
 
 mat-toolbar {
-  background: linear-gradient(#bed3ff, #ffe0e4);
+  background: linear-gradient(135deg,  #b6d0fd, #ffe0e4);
 }
 mat-sidenav-container {
   height: 100vh;
