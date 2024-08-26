@@ -53,7 +53,7 @@ mat-card-title a:hover {
 
 mat-card-subtitle {
   font-size: medium;
-  color: rgba(101, 86, 145, 0.9);
+  color: rgba(231, 7, 7, 0.9);
   font-weight: bold;
 }
 
@@ -62,7 +62,6 @@ mat-card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
 }
 
 .cardActions {
@@ -76,4 +75,5 @@ mat-card-content {
   padding: 4px 8px;
   border: 1px solid transparent;
   background: #b6d0fd;
+  margin-bottom: 5px;
 }
