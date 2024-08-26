@@ -2,72 +2,38 @@
   <mat-toolbar>
     <mat-toolbar-row class="toolbarWrite">
       <div class="container">
-        <div >
-          <mat-icon fontIcon="home"></mat-icon>
-          <span> OnlineShop</span>
+        <div class="animated-shop">
+          <span>OnlineShop</span>
         </div>
         <div class="flexExpand"></div>
         <div class="headerAuth">
-          <button [matMenuTriggerFor]="menuAuth" mat-button>My Account
+          <button [matMenuTriggerFor]="menuAuth" mat-button>
+            My Account
             <mat-icon>keyboard_arrow_down</mat-icon>
           </button>
-          <mat-menu #menuAuth>
-            <button mat-menu-item >Login</button>
+          <mat-menu #menuAuth="matMenu">
+            <button mat-menu-item>Login</button>
             <button mat-menu-item>Register</button>
-          </mat-menu>
-          <button mat-button>My Wishlist</button>
-          <a mat-button>
-            <mat-icon>add_shopping_cart</mat-icon>
-            0,00$ (0 Item)</a>
-        </div>
-      </div>
-      <div>
-        <div class="container">
-          <span class="flexExpand"></span>
-          <div class="headerBlock">
-            <div class="blockHalf">
-              <mat-icon>perm_phone_msg</mat-icon>
-              <div class="blockHalfDetail">
-                <h3>Support</h3>
-                <p>0123456789</p>
-              </div>
-            </div>
-          </div>
-          <div class="headerBlock">
-            <div class="blockHalf">
-              <mat-icon>directions_car</mat-icon>
-              <div class="blockHalfDetail">
-                <h3>Free Shipping</h3>
-                <p>Order above 50$</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="flexExpand"></span>
-      </div>
-      <div class="headerBlockRight">
-        <div class="headerBlock">
-          <div class="headerBlock">
-            <button mat-button [matMenuTriggerFor]="currencyMenu"> Currency
-              <mat-icon>keyboard_arrow_down</mat-icon>
+            <mat-divider></mat-divider> <!-- Optional divider -->
+            <button [matMenuTriggerFor]="currencyMenu" mat-menu-item>
+              Currency
             </button>
             <mat-menu #currencyMenu="matMenu">
               <button mat-menu-item>EUR</button>
               <button mat-menu-item>USD</button>
             </mat-menu>
-          </div>
-          <div class="headerBlock">
-            <button mat-button [matMenuTriggerFor]="languageMenu"> Language
-              <mat-icon>keyboard_arrow_down</mat-icon>
+            <button [matMenuTriggerFor]="languageMenu" mat-menu-item>
+              Language
             </button>
             <mat-menu #languageMenu="matMenu">
               <button mat-menu-item>Deutsch</button>
               <button mat-menu-item>English</button>
             </mat-menu>
-          </div>
+          </mat-menu>
+          <button mat-button>My Wishlist</button>
+          <a mat-button>0,00$ (0 Item)</a>
         </div>
       </div>
     </mat-toolbar-row>
-
   </mat-toolbar>
 </div>
