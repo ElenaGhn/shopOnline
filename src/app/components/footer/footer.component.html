@@ -1,26 +1,38 @@
-
-
-  <mat-toolbar class="aboveFooterContainer">
-    <mat-toolbar-row class="footerContainer">
-      <div  fxLayout="row">
-        <div class="newsletterMessage">
-          <mat-icon fontIcon="message" class="message-footer"></mat-icon>
-
-          <div>
-            <span>More offers via E-mail</span>
-          </div>
+<mat-toolbar class="container">
+  <mat-toolbar-row>
+    <div class="headerBlock">
+        <div class="buttonContainer">
+          <button class="btn">
+            <h3>Call for support</h3>
+            <p class="hiddenText">+123456789</p>
+          </button>
+          <button class="btn">
+            <h3>Free Shipping</h3>
+            <p class="hiddenText">Order above 50$</p>
+          </button>
+          <button class="btn">
+            <h3>Settings</h3>
+            <p class="hiddenText">Your profile</p>
+          </button>
         </div>
-        <form [formGroup]="newsletter" class="email-form">
-          <div class="form-field-container">
-            <mat-form-field>
-              <input type="email" matInput formControlName="newsletter" class="newsletterInput">
-            </mat-form-field>
-
-            <div class="footer-submit-button">
-              <button mat-raised-button type="submit" color="primary">Sign Up</button>
-            </div>
-          </div>
-        </form>
       </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
+
+    <!-- Hier ist das E-Mail-Formular -->
+    <div fxLayout="row" class="inputContainer">
+      <div class="newsletterMessage">
+        <mat-icon fontIcon="message" ></mat-icon>
+        <div>
+          <span>More offers via E-mail: </span>
+        </div>
+      </div>
+      <div class="custom-input-container">
+        <label for="emailInput" class="custom-input-label"></label>
+        <input type="email" id="emailInput" class="custom-input" placeholder="Enter your email">
+      </div>
+        <div class="footer-submit-button">
+          <button mat-raised-button type="submit" color="primary">Sign Up</button>
+        </div>
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

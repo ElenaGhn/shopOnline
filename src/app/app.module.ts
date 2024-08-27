@@ -15,7 +15,6 @@ import { AppRouterModule} from "./general/app-router/app-router.module";
 import { ExtendedModule, FlexLayoutModule} from "@angular/flex-layout";
 import { FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import { SliderImagesComponent } from './components/slider-images/slider-images.component';
-import { AdvantagesComponent } from './components/advantages/advantages.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
@@ -34,7 +33,6 @@ import { HeaderSpacerComponent } from './components/header-spacer/header-spacer.
     NavigationComponent,
     LandingPageComponent,
     SliderImagesComponent,
-    AdvantagesComponent,
     FooterComponent,
     AboutComponent,
     ContentComponent,
