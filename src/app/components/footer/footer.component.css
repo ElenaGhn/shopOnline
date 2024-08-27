@@ -1,6 +1,7 @@
-
-
-
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .aboveFooterContainer {
   height: 70px;
