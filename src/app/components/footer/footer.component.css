@@ -1,6 +1,6 @@
 .container {
   background: linear-gradient(176deg, #98bcff, #ffe0e4, #98bcff,  #ffe0e4, #98bcff,  #ffe0e4, #98bcff);
-  height: 80px;
+  height: 70px;
 }
 
 .mat-toolbar-row {
@@ -26,6 +26,9 @@
   overflow: hidden;
 }
 
+.btn:hover{
+  box-shadow: 1px 1px 2px 2px white;
+}
 
 .btn h3 {
   margin: 0;
@@ -49,16 +52,6 @@
   opacity: 1;
 }
 
-.inputContainer {
-  display: flex;
-  align-items: flex-end;
-}
-
-.footerContainer {
-  display: flex;
-  justify-content: center;
-}
-
 .newsletterMessage {
   display: flex;
   align-items: center;
@@ -72,8 +65,8 @@
 
 .custom-input {
   width: 100%;
-  padding: 12px 12px 0 12px;
-  margin: 20px 5px 5px 5px;
+  padding: 14px 14px 6px 14px;
+  margin: 5px;
   font-size: 18px;
   font-family: cursive;
   border: 1px solid transparent;
