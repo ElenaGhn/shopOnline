@@ -1,24 +1,22 @@
 <mat-toolbar class="container">
   <mat-toolbar-row>
     <div class="headerBlock">
-        <div class="buttonContainer">
-          <button class="btn">
-            <h3>Call for support</h3>
-            <p class="hiddenText">+123456789</p>
-          </button>
-          <button class="btn">
-            <h3>Free Shipping</h3>
-            <p class="hiddenText">Order above 50$</p>
-          </button>
-          <button class="btn">
-            <h3>Settings</h3>
-            <p class="hiddenText">Your profile</p>
-          </button>
-        </div>
+      <div class="buttonContainer">
+        <button class="btn">
+          <h3>Call for support</h3>
+          <p class="hiddenText">+123456789</p>
+        </button>
+        <button class="btn">
+          <h3>Free Shipping</h3>
+          <p class="hiddenText">Order above 50$</p>
+        </button>
+        <button class="btn">
+          <h3>Settings</h3>
+          <p class="hiddenText">Your profile</p>
+        </button>
       </div>
-
-    <!-- Combined E-Mail-Formular -->
-    <div fxLayout="row" class="inputContainer">
+    </div>
+    <div fxLayout="row">
       <div class="newsletterMessage">
         <mat-icon fontIcon="message"></mat-icon>
         <div>
@@ -27,28 +25,11 @@
       </div>
       <div class="custom-input-container">
         <label for="emailInput" class="custom-input-label"></label>
-        <!-- Retain custom input and also include Angular form group for enhanced form management -->
         <input type="email" id="emailInput" class="custom-input" placeholder="Enter your email">
       </div>
       <div class="footer-submit-button">
         <button mat-raised-button type="submit" color="primary">Sign Up</button>
       </div>
-    </div>
-
-    <!-- Additional Footer Content from main -->
-    <mat-toolbar class="aboveFooterContainer">
-      <mat-toolbar-row class="footerContainer">
-        <form [formGroup]="newsletter" class="email-form">
-          <div class="form-field-container">
-            <mat-form-field>
-              <input type="email" matInput formControlName="newsletter" class="newsletterInput">
-            </mat-form-field>
-            <div class="footer-submit-button">
-              <button mat-raised-button type="submit" color="primary">Sign Up</button>
-            </div>
-          </div>
-        </form>
-      </mat-toolbar-row>
-    </mat-toolbar>
+    </div><
   </mat-toolbar-row>
 </mat-toolbar>
