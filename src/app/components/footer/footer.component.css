@@ -1,6 +1,6 @@
 .container {
   background: linear-gradient(176deg, #98bcff, #ffe0e4, #98bcff,  #ffe0e4, #98bcff,  #ffe0e4, #98bcff);
-  height:0px;
+  height: 70px;
 }
 
 .mat-toolbar-row {
@@ -51,6 +51,7 @@
 .btn:hover .hiddenText {
   opacity: 1;
 }
+
 .newsletterMessage {
   display: flex;
   align-items: center;
