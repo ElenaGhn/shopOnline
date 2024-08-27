@@ -6,7 +6,6 @@
 .mat-toolbar-row {
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
 }
 
 .buttonContainer {
@@ -26,6 +25,7 @@
   position: relative;
   overflow: hidden;
 }
+
 
 .btn h3 {
   margin: 0;
