@@ -54,6 +54,11 @@
   align-items: flex-end;
 }
 
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .newsletterMessage {
   display: flex;
   align-items: center;
