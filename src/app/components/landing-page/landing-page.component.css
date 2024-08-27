@@ -18,17 +18,13 @@ mat-card {
   cursor: pointer;
   width: 100%;
   max-width: 250px;
-  height: 300px;
-  margin: 5px; /* Abstand zwischen den Karten verringert */
+  height: 280px;
+  margin: 5px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-}
-
-mat-card-header {
-  flex-shrink: 0;
 }
 
 mat-card-header img {
@@ -42,11 +38,6 @@ mat-card-header img {
   overflow: auto;
 }
 
-mat-card-title a {
-  text-decoration: none;
-  color: black;
-}
-
 mat-card-title a:hover {
   color: grey;
 }
@@ -55,6 +46,7 @@ mat-card-subtitle {
   font-size: medium;
   color: rgba(231, 7, 7, 0.9);
   font-weight: bold;
+  margin-left: 10px;
 }
 
 mat-card-content {
@@ -67,8 +59,7 @@ mat-card-content {
 .cardActions {
   display: flex;
   justify-content: space-around;
-  padding: 8px; /* Leichtes Padding für die Buttons */
-  margin-top: auto; /* Positioniert die Buttons am unteren Ende der Karte */
+  padding: 8px;
 }
 
 .cardActionsButtons {
